@@ -1,16 +1,16 @@
 class Bflow < Formula
   desc "Beans GitFlow - customized gitflow workflow CLI"
   homepage "https://github.com/Beans-BV/beans-gitflow"
-  version "2.0.0"
+  version "2.1.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Beans-BV/beans-gitflow/releases/download/v#{version}/bflow-macos-aarch64"
-      sha256 "3f186608a11abf86972cbd3f4ad7a71ff2ad983954dd5f2f08af5314a82ac5c8"
+      sha256 "60f12fbe2f6f4ac0a196764d6c91ad70bc08178726f3e9dcde944a3cf8d8b49e"
     else
       url "https://github.com/Beans-BV/beans-gitflow/releases/download/v#{version}/bflow-macos-x86_64"
-      sha256 "e48c4def13ea861d1f7bcecba2e91fba3d7fdd2dc3942a8c0f8e664ce719706e"
+      sha256 "43ef767326826401ddeb2e035c13fb688c4adcbf8e9b9213efba1d81eb3854a6"
     end
   end
 
